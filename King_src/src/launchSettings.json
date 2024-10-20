@@ -5,7 +5,8 @@
       "commandVersion": "1.0",
       "serviceActions": {
         "catalogdb": "StartWithoutDebugging",
-        "catalog.api": "StartWithoutDebugging"
+        "catalog.api": "StartWithoutDebugging",
+        "basket.api": "StartWithoutDebugging"
       }
     },
     "docker-compose-new": {
