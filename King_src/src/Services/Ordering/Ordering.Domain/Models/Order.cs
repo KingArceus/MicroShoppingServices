@@ -4,7 +4,7 @@
     {
         private readonly List<OrderItem> _orderItems = new();
 
-        public IReadOnlyList<OrderItem> orderItems => _orderItems.AsReadOnly();
+        public IReadOnlyList<OrderItem> OrderItems => _orderItems.AsReadOnly();
 
         public CustomerId CustomerId { get; private set; } = default!;
         public OrderName OrderName {  get; private set; } = default!;
@@ -14,7 +14,7 @@
         public OrderStatus Status { get; private set; } = OrderStatus.Pending;
         public decimal TotalPrice
         {
-            get => orderItems.Sum(x => x.Price * x.Quantity);
+            get => OrderItems.Sum(x => x.Price * x.Quantity);
             private set { }
         }
 

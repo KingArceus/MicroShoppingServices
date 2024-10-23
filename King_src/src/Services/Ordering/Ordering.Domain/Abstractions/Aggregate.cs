@@ -6,7 +6,7 @@ namespace Ordering.Domain.Abstractions
     {
         private readonly List<IDomainEvent> _domainEvents = new();
 
-        public IReadOnlyList<IDomainEvent> Events => _domainEvents.AsReadOnly();
+        public IReadOnlyList<IDomainEvent> DomainEvents => _domainEvents.AsReadOnly();
 
         public void AddDomainEvent(IDomainEvent domainEvent) 
         {
