@@ -6,7 +6,8 @@
       "serviceActions": {
         "catalogdb": "StartWithoutDebugging",
         "catalog.api": "StartWithoutDebugging",
-        "basket.api": "StartWithoutDebugging"
+        "basket.api": "StartWithoutDebugging",
+        "discount.grpc": "StartWithoutDebugging"
       }
     },
     "docker-compose-new": {
