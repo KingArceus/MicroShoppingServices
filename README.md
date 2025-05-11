@@ -7,9 +7,6 @@ There is a couple of microservices which implemented **e-commerce** modules over
 ### Check Explanation of this Repository on Medium
 * [.NET 8 Microservices: DDD, CQRS, Vertical/Clean Architecture and Event-Driven Communication](https://medium.com/@mehmetozkaya/net-8-microservices-ddd-cqrs-vertical-clean-architecture-2dd7ebaaf4bd)
 
-## Whats Including In This Repository
-We have implemented below **features over the run-aspnetcore-microservices repository**.
-
 #### Catalog microservice which includes; 
 * ASP.NET Core Minimal APIs and latest features of .NET8 and C# 12
 * **Vertical Slice Architecture** implementation with Feature folders and single .cs file includes different classes in one file
@@ -90,6 +87,3 @@ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 ## Authors
 
 * **Mehmet Ozkaya** - *Initial work* - [mehmetozkaya](https://github.com/mehmetozkaya)
-
-See also the list of [contributors](https://github.com/aspnetrun/run-core/contributors) who participated in this project. Check also [gihtub page of repository.](https://aspnetrun.github.io/run-aspnetcore-angular-realworld/)
-
